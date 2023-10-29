@@ -1,0 +1,23 @@
+{
+    "drawings": [
+        {
+            "id": "dr1",
+            "src": "/images/temp drawings/logo.png",
+            "title": "the Luv",
+            "artist": "Leonard",
+            "genre": "classic",
+            "year": 1423,
+            "size": 1060
+        },
+        {"id": "dr1", "src": "/images/temp drawings/wp12456945-i-want-to-eat-your-pancreas-4k-wallpapers.jpg", "title": "Your name", "artist": "Leonard", "genre": "realistic", "year": 1885, "size": 7691},
+        {"id": "dr2", "src": "/images/temp drawings/wp1892089-your-name-wallpapers.jpg", "title": "My Name", "artist": "Leonard", "genre": "fantasy", "year": 1575, "size": 4244},
+        {"id": "dr3", "src": "/images/temp drawings/wp1892103-your-name-wallpapers.png", "title": "No Name", "artist": "Johny", "genre": "classic", "year": 1565, "size": 726},
+        {"id": "dr4", "src": "/images/temp drawings/wp1892116-your-name-wallpapers.png", "title": "Anybody's name", "artist": "Van gogh", "genre": "classic", "year": 1614, "size": 962},
+        {"id": "dr5", "src": "/images/temp drawings/wp1892131-your-name-wallpapers.png", "title": "Prefix name", "artist": "Van gogh", "genre": "Anime", "year": 1836, "size": 2814},
+        {"id": "dr6", "src": "/images/temp drawings/wp1937307-your-name-wallpapers.png", "title": "suffix name", "artist": "Johny", "genre": "Romantic0", "year": 1912, "size": 168},
+        {"id": "dr7", "src": "/images/temp drawings/wp1937309-your-name-wallpapers.jpg", "title": "nameless", "artist": "Leonard", "genre": "fantasy", "year": 1763, "size": 9472},
+        {"id": "dr8", "src": "/images/temp drawings/wp1937315-your-name-wallpapers.jpg", "title": "the Luv is lost", "artist": "Mira", "genre": "classic", "year": 2000, "size": 8711},
+        {"id": "dr9", "src": "/images/temp drawings/wp1937316-your-name-wallpapers.png", "title": "the Luv is gone", "artist": "Mira", "genre": "realistic", "year": 1834, "size": 2026},
+        {"id": "dr10", "src": "/images/temp drawings/wp1937325-your-name-wallpapers.jpg", "title": "np Luv", "artist": "Mustafa", "genre": "realistic", "year": 1852, "size": 7359}
+    ]
+}

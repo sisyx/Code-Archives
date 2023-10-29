@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>World of Painters</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img class="header-top--logo" src="images/logo.png" />
+            <div class="header-top--socials">
+                <img src="images/telegram-logo.jpg" alt="telegram logo" />
+                <img src="images/github-logo.svg"  alt="github logo"/>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <h1 class="header-bottom--title">Van Gogh</h1>
+            <div class="header-bottom--search-container">
+                <label for="search" class="header-bottom--search-bar">
+                    <input type="text" name="search" placeholder="Search" class="header-bottom--search-input">
+                </label>
+                <button class="header-bottom--go-btn">
+                    <img src="images/search.svg" alt="search" class="header-bottom--go-img">
+                </button>
+            </div>
+            <div class="header-bottom--settings__container">
+                <div class="header-bottom--settings__sort header-bottom--setting">
+                    <div class="header-bottom--settings__title">Sort&#x27F1;</div>
+                    <div class="header-bottom--settings__options">
+                        <div class="header-bottom--settings__option" onclick="handeSortsClick(event)">Auto</div>
+                        <div class="header-bottom--settings__option" onclick="handeSortsClick(event)">Alphabet</div>
+                        <div class="header-bottom--settings__option" onclick="handeSortsClick(event)">Size</div>
+                        <div class="header-bottom--settings__option" onclick="handeSortsClick(event)">year</div>
+                        <div class="header-bottom--settings__option" onclick="handeSortsClick(event)">Artist</div>
+                        <label for="sort type" class="header-bottom--settings__option header-bottom--settings__option--sort-type">
+                            Acceding <input type="checkbox" checked name="sort type" onchange="htncleSortTypeClick(event)">
+                        </label>
+                    </div>
+                </div>
+                <div class="header-bottom--settings__filter header-bottom--setting">
+                    <div class="header-bottom--settings__title">Filter&#x27F1;</div>
+                    <div class="header-bottom--settings__options">
+                        <div class="header-bottom--settings__option header-bottom--settings__filter--filter">
+                            <div class="header-bottom--settings__filter--filter-title">year</div>
+                            <div class="header-bottom--settings__filter--filter__options">
+                                <div class="header-bottom--settings__filter--filter__option" onClick="handleFilterYear(event, year = 0)">Before 1500</div>
+                                <div class="header-bottom--settings__filter--filter__option" onClick="handleFilterYear(event, year = 1500)">1500 to 1900</div>
+                                <div class="header-bottom--settings__filter--filter__option" onClick="handleFilterYear(event, year = 1900)">after 1900</div>
+                                <div class="header-bottom--settings__filter--filter__option" onClick="handleFilterYear(event, year = 'all')">All</div>
+                            </div>
+                        </div>
+                        <div class="header-bottom--settings__option header-bottom--settings__filter--filter">
+                            <div class="header-bottom--settings__filter--filter-title">genre</div>
+                            <div class="header-bottom--settings__filter--filter__options">
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterGenre(event, genre = 'classic')">classic</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterGenre(event, genre = 'Romantic')">Romantic</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterGenre(event, genre = 'Realstic')">Realstic</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterGenre(event, genre = 'all')">All</div>
+                            </div>
+                        </div>
+                        <div class="header-bottom--settings__option header-bottom--settings__filter--filter">
+                            <div class="header-bottom--settings__filter--filter-title">size</div>
+                            <div class="header-bottom--settings__filter--filter__options">
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterSize(event, size = 500)">< 500kb</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterSize(event, size = 5000)">500kb to 5 mb</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterSize(event, size = 10000)">5mb <</div>
+                                <div class="header-bottom--settings__filter--filter__option" onclick="handleFilterSize(event, size = 'all')">All</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom--settings__A header-bottom--setting">
+                    <div class="header-bottom--settings__title">SETTING A&#x27F1;</div>
+                    <div class="header-bottom--settings__options">
+                        <div class="header-bottom--settings__option">SETTING A-1</div>
+                        <div class="header-bottom--settings__option">SETTING A-2</div>
+                        <div class="header-bottom--settings__option">SETTING A-3</div>
+                        <div class="header-bottom--settings__option">SETTING A-4</div>
+                    </div>
+                </div>
+                <div class="header-bottom--settings__B header-bottom--setting">
+                    <div class="header-bottom--settings__title">SETTING B&#x27F1;</div>
+                    <div class="header-bottom--settings__options">
+                        <div class="header-bottom--settings__option">SETTING B-1</div>
+                        <div class="header-bottom--settings__option">SETTING B-2</div>
+                        <div class="header-bottom--settings__option">SETTING B-3</div>
+                        <div class="header-bottom--settings__option">SETTING B-4</div>
+                        <div class="header-bottom--settings__option">SETTING B-5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main--title">
+            <div class="main--title__searched-for">you searched for Luv</div>
+            <div class="main--title__searched-numfound">18 drawings found</div>
+        </div>
+        <div class="posts-container">
+        </div>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

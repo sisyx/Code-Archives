@@ -1,0 +1,98 @@
+[
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art0.png",
+        "name": "Van Gogh",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art1.png",
+        "name": "Sajad",
+        "bornAt": 1547,
+        "deathAt": 1580,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art2.png",
+        "name": "Aran",
+        "bornAt": 1002,
+        "deathAt": 1040,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art3.png",
+        "name": "Sajad",
+        "bornAt": 1300,
+        "deathAt": 1327,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art4.png",
+        "name": "Hassan",
+        "bornAt": 1,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art5.png",
+        "name": "Da vinschi",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art6.png",
+        "name": "Alibaba",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art7.png",
+        "name": "Ensan",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art8.png",
+        "name": "Heyvan",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art9.png",
+        "name": "Sina",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art10.png",
+        "name": "Javad",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    },
+    {
+        "id": "art0",
+        "imageSrc": "images/artists/art11.png",
+        "name": "Hater",
+        "bornAt": 1444,
+        "deathAt": 1486,
+        "genre": "classic"
+    }
+]

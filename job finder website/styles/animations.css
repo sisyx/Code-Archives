@@ -1,0 +1,11 @@
+.header--tag {
+    animation: load-header-tag 150ms 1 ease;
+}
+@keyframes load-header-tag {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
